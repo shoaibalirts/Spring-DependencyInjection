@@ -3,8 +3,8 @@ package com.namenets.DependencyInjection;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Laptop {
+public class Laptop implements Computer{
     public void compile(){
-        System.out.println("Dev is dependent on Laptop and without Laptop he/she can not develope any software");
+        System.out.println("Laptop is portable and good for movement.");
     }
 }
